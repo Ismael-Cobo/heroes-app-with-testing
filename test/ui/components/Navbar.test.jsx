@@ -24,9 +24,8 @@ describe('Navbar test', () => {
   }
 
   beforeEach(() => jest.clearAllMocks())
+
   test('debe de mostrar el nombre del usuario en el navbar', () => {
-
-
 
     render(
       <AuthContext.Provider value={contextValues}>
